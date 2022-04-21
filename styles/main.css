@@ -1,0 +1,284 @@
+
+.text-center {
+	text-align:center;
+	margin-bottom: 0;
+}
+
+.list-unstyled{
+	padding-left:0;
+	list-style:none
+}
+#main h1 {
+	color: orange;
+	font-family: Updock;
+	font-size: 180px;
+}
+
+#main h2{
+	color: orange;
+	font-family: Lexend Deca;
+	font-weight: bolder;
+}
+
+.fro_icon {
+	width: 50px;
+	height: 60px;
+	border-radius: 30px;
+	border-color: #e69906;
+	border-width: 1px;
+	border-style: solid;
+}
+#image {
+    width: 298px;
+    height: 298px;
+    border-radius: 150px;
+    border: 2px solid gold;
+     
+}
+.img-div{
+	padding-bottom: 150px;
+}
+#img-caption {
+	padding-top: 3px;
+	font-family: Lexend Deca;
+	text-align: center;
+}
+.container{
+	max-width: 1130px;
+}
+.container{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+@media (min-width:768px){
+	.container{
+		width:750px
+	}
+}
+@media (min-width:992px){
+	.container{width:970px}
+}@media (min-width:1200px){
+	.container{width:1170px}
+}
+
+.container:after,.container:before, .clearfix:after,.clearfix:before{
+	display:table;
+	content:" ";
+}
+.container:after, .clearfix:after{
+	clear:both
+}
+
+
+/*		quotes section 		*/
+
+
+.quotes{
+	padding: 0 0;
+}
+.quotes .bg_wrap {
+	overflow: hidden;
+	position: relative;
+}
+.quotes .bg {
+	
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	
+}
+.quotes .quotes_list{
+	max-width: 820px;
+	margin: 0 auto;
+	position: relative;
+	
+	
+}
+
+.quotes .quotes_list blockquote{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.quotes .quotes_list blockquote p{
+	color: black;
+	font-family: Montserrat;
+	font-size: 20px;
+	margin: 0;
+	line-height: 36px;
+	/* width: 700px; */
+	height: 300px;
+}
+
+.quotes .quotes_list blockquote footer:before,
+.quotes .quotes_list blockquote footer:after{
+	content: none;
+}
+
+.quotes .quotes_list blockquote .author,
+.quotes .quotes_list blockquote .harriet_icon{
+	display: block;
+}
+
+.quotes .quotes_list blockquote .author{
+	color: orange;
+	font-family: Playfair Display;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.quotes .quotes_list blockquote .harriet_icon{
+
+	display: inline-block;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/harriet.jpg');
+	background-color: white;
+	text-indent: -200px;
+	overflow: hidden;
+}
+
+#tslider{
+	text-align: center!important;
+	position: relative!important;
+}
+
+
+.prev_arrow_icon {
+
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.prev_arrow_icon, .next_arrow_icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	text-indent: -200px;
+	overflow: hidden;
+	background: url('../img/arrow.svg') no-repeat;
+	border: none;
+}
+.prev_arrow_icon:hover, .next_arrow_icon:hover{
+	cursor: pointer;
+	background: url('../img/new_arrow.svg') no-repeat;
+}
+#slider_nav {
+	position:relative; 
+	top:50%; 
+	left: 50%; 
+	margin: -16px 0 0 -16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* footer section */
+.footer {
+	padding: 0 20px;
+	font-family:Whisper;
+}
+.footer .footer_wrap {
+	
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.footer .footer_wrap h3 {
+	float: left;
+
+	color: gold;
+	background-color: #221e1e;
+	font-size: 40px;
+	padding-left: 80px;
+	padding-right: 50px;
+	border-left-color: #e69906;
+    border-left-width: 5px;
+    border-left-style: outset;
+    border-top-color:  #e69906;
+    border-top-width: 2px;
+    border-top-style: outset;
+    border-radius: 10px;
+	
+}
+
+.footer .footer_wrap  .btn {
+	float: right;
+	color: black;
+	background-color: #e69906;
+	height: 50px;
+	border-radius: 4px;
+	border-color: #e69906;
+	font-family:Whisper;
+	
+	
+}
+.footer .footer_wrap  .btn a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	
+}
+
+.footer .footer_wrap  .btn a:hover{
+	text-decoration: none;
+	color: white;	
+}
+
+.footer .footer_wrap  .btn a:focus{
+	text-decoration: none;
+	color: #916004;
+	
+	
+}
+
+/*tribute section*/
+.tribute {
+	padding: 50px 0;
+}
+.tribute .tribute_wrap {
+	overflow: hidden;
+	position: relative;
+}
+
+.tribute .life{
+	max-width: 820px;
+	margin: 0 auto;
+	color: black;
+}
+
+.tribute p {
+	font-family: Lexend Deca;
+	text-align: justify;
+}
+
+/* legacy section */
+.legacy {
+	font-family: Lexend Deca;
+}
+.legacy .paragraph{
+	font-family: Lexend Deca;
+	font-size: 22px;
+	text-align: justify;
+	line-height: 2.0em;
+	margin-right: 30px;
+		
+}
+
+.legacy .image {
+	border: #e69906 3px solid;
+    border-radius: 10px;
+		width: 300px;
+		height: 300px;
+}
