@@ -10,13 +10,13 @@
 }
 #main h1 {
 	color: orange;
-	font-family: Updock;
+	font-family: 'Updock', cursive;
 	font-size: 180px;
 }
 
 #main h2{
 	color: orange;
-	font-family: Lexend Deca;
+	font-family: 'Lexend Deca', monospace;
 	font-weight: bolder;
 }
 
@@ -40,7 +40,7 @@
 }
 #img-caption {
 	padding-top: 3px;
-	font-family: Lexend Deca;
+	font-family: 'Lexend Deca', monospace;
 	text-align: center;
 }
 .container{
@@ -77,10 +77,12 @@
 
 .quotes{
 	padding: 0 0;
+	font-family: 'Montserrat', sans-serif;
 }
 .quotes .bg_wrap {
 	overflow: hidden;
 	position: relative;
+	
 }
 .quotes .bg {
 	
@@ -113,7 +115,7 @@
 
 .quotes .quotes_list blockquote p{
 	color: black;
-	font-family: Montserrat;
+
 	font-size: 20px;
 	margin: 0;
 	line-height: 36px;
@@ -133,7 +135,6 @@
 
 .quotes .quotes_list blockquote .author{
 	color: orange;
-	font-family: Playfair Display;
 	font-size: 18px;
 	margin-bottom: 10px;
 }
@@ -187,7 +188,9 @@
 /* footer section */
 .footer {
 	padding: 0 20px;
-	font-family:Whisper;
+	font-family:'Updock', cursive;
+
+	line-height: 70px;
 }
 .footer .footer_wrap {
 	
@@ -220,7 +223,7 @@
 	height: 50px;
 	border-radius: 4px;
 	border-color: #e69906;
-	font-family:Whisper;
+	font-family: 'Updock', cursive;
 	
 	
 }
@@ -259,16 +262,16 @@
 }
 
 .tribute p {
-	font-family: Lexend Deca;
+	font-family: 'Lexend Deca', monospace;
 	text-align: justify;
 }
 
 /* legacy section */
 .legacy {
-	font-family: Lexend Deca;
+	font-family: 'Lexend Deca', monospace;
 }
 .legacy .paragraph{
-	font-family: Lexend Deca;
+	font-family: 'Lexend Deca', monospace;
 	font-size: 22px;
 	text-align: justify;
 	line-height: 2.0em;
