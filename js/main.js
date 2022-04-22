@@ -1,4 +1,4 @@
-console.log(process.env.AVALUE)
+console.log(AVALUE)
 
 const quotes = [
 	{ 
