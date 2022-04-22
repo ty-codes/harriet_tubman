@@ -1,3 +1,5 @@
+console.log(process.env.AVALUE)
+
 const quotes = [
 	{ 
 		id: 1,
