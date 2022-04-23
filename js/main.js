@@ -1,4 +1,3 @@
-console.log(AVALUE)
 
 const quotes = [
 	{ 
